@@ -1,0 +1,18 @@
+#MembersNavContent { } 
+#MembersNav {margin:0px; padding:0px; width:956px; border-bottom:1px solid #FBBB01; overflow:hidden; 
+background-color:#FFF;	border: 5px solid #ccc;
+	border-radius: 5px;
+}
+#MembersNavTop {float:left;}
+#MembersNavBottomCap {}
+/*#MembersNav {float:none; position:absolute; top:120px; overflow:hidden; z-index:3000;}*/
+* html #MembersNav {width:958px;}
+#MembersNav #MembersNavContent {float:none; width:945px; height:auto !important; padding:0 0 0 11px;}
+#MembersNav #MembersNavTop { width:930px; text-align:right; line-height:30px; padding-bottom:10px;}
+#MembersNav #MembersNavTop a{ color:#FF0000; font-weight:bold;}     
+#MembersNav #MembersNavBottomCap {}
+#MembersNav .tabnav {width:911px; padding:0px 5px 0px 0px;}
+#MembersNav ul.MemberList { margin:0px; padding:0px 0px 0px 5px; width:160px;  display:inline; }
+#MembersNav ul.MemberList li {width:148px; list-style-type:none; padding:4px 20px; font-size: 11px;}
+/*****        End Shows Members Drop Down Menu      *****/
+#MembersNav div {float:left; height:auto;}

@@ -1,0 +1,141 @@
+
+#slider-wrapper {
+	width:600px;
+	height:350px;
+	position:relative;
+	margin-bottom:20px;
+	margin-left:-2px;
+}
+
+
+#ribbon {
+	position:absolute;
+	top:0px;
+	left:465px;
+	z-index:500;
+}
+
+#slide-frame {
+	position:absolute;
+	z-index:0;
+	width:739px;
+	height:341px;
+	top:-3px;
+	left:-80px;
+}
+
+/*
+	Slideshow
+*/
+
+#slidees {
+	position:absolute;
+	top:15px;
+	left:4px;
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:570px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+	box-shadow:0 0 8px -2px #888888;
+	border:5px solid #fbb800;
+	border-top:40px solid #fbb800;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container div.slide {
+	width:570px;
+	height:310px;
+	display:block;
+}
+
+
+/*
+	Next/prev buttons
+*/
+
+#slidees .next,#slidees .prev {
+	dposition:absolute !important;
+	dtop:138px  !important;
+	dleft:-35px ;
+	width:24px  !important;
+	height:43px !important;
+	display:block !important;
+	z-index:101 !important;
+	background:none !important;
+	margin:0 !important;
+}
+
+#slidees .next {
+	/*left:579px;*/
+}
+
+/*
+	Pagination
+*/
+
+.pagination-slide {
+	margin:10px auto 0;
+	left:22%;
+	position:relative;
+	dmargin-left:-20px;
+}
+
+.pagination-slide li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination-slide li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(/assets/img/featured-slider/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination-slide li.current a {
+	background-position:0 -12px;
+}
+
+/*
+	Caption
+*/
+
+.captioon {
+	z-index:500;
+	position:absolute;
+	bottom:-35px;
+	left:0;
+	height:30px;
+	padding:5px 20px 0 20px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	width:540px;
+	font-size:1.3em;
+	line-height:1.33;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow:none;
+}

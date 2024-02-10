@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Entrepreneur Information</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="pitch.css">
+  </head>
+  <body>
+    <h1>Entrepreneur Information</h1>
+    <form id="entrepreneur-form">
+      <h2>Basic Information</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="pitch-name">Pitch Name:</label>
+      <input type="text" id="pitch-name" name="pitch-name" required><br>
+
+      <h2>Business Details</h2>
+      <label for="business-name">Business Name:</label>
+      <input type="text" id="business-name" name="business-name" required><br>
+
+      <label for="investment-amount">Investment Amount:</label>
+      <input type="number" id="investment-amount" name="investment-amount" required><br>
+
+      <label for="security-details">Security Details:</label>
+      <textarea id="security-details" name="security-details" rows="5" cols="40"></textarea><br>
+
+      <h2>Supporting Documents</h2>
+      <label for="business-plan">Business Plan:</label>
+      <input type="file" id="business-plan" name="business-plan"><br>
+
+      <label for="financials">Financials:</label>
+      <input type="file" id="financials" name="financials"><br>
+
+      <button type="submit" id="submit-button">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

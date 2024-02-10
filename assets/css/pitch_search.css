@@ -1,0 +1,14 @@
+/*@import "../toolkit/styles/toolkit.css";*/
+.Filter {background-color: #ffffff;}
+.Filter-item input[type="checkbox"] {margin: 1px; position: absolute;}
+.c-nav-banner {z-index: 1111;}
+.c-header {-webkit-box-shadow: 0 0px 0px 0 rgba(27,32,47,0.5);box-shadow: 0 0px 0px 0 rgba(27,32,47,0.5);z-index: 111;}
+.Filter{padding:16px 0 0 0;border-bottom:solid 1px #e8e8e8; background-color:#ffffff;z-index: 11;}
+.Button--tertiary {background: #fff; border: 1px solid #e8e8e8;color: #4f5766;}
+.color-brand {color: #4a8cff;}
+.Link {opacity: 1;text-decoration: none;transition: color .15s ease-in;}
+.c-nav__icon {background-image: url(/assets/img/icon-ain-dark-blue-a53d3b2f.png)}
+.search__tag-block .bootstrap-tagsinput{padding-left: 70px}
+.search__tag-block .bootstrap-tagsinput .tag:first-child {padding-left:14px !important;}
+.search__tag-block .bootstrap-tagsinput .tag:last-of-type {margin-right:0px !important;}
+.search__tag-block input {padding-left: 20px;}
